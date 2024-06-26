@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✒️FormMosaic
 
-## Getting Started
+FormMosaic is a powerful and intuitive form-building tool designed to create dynamic, responsive forms easily. With a user-friendly interface and extensive customization options, FormMosaic allows you to design and deploy forms for various use cases.
 
-First, run the development server:
+## 👧🏻Features
+- **Drag-and-Drop Interface**: Easily create forms with a simple drag-and-drop interface.
+- **Customization**: Extensive customization options for all form elements.
+- **Responsive Design**: Forms created with FormMosaic are fully responsive and look great on all devices.
+- **Integration**: Seamlessly integrates with other software and platforms for efficient data collection and analysis.
+- **Validation**: Built-in validation features to ensure data integrity.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚙️Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To install FormMosaic, follow these steps:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/formmosaic.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd formmosaic
+    ```
+3. Install the dependencies:
+    ```sh
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🚀Usage
 
-## Learn More
+To start using FormMosaic, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Start the development server:
+    ```sh
+    npm start
+    ```
+2. Open your browser and navigate to `http://localhost:3000` to access the FormMosaic interface.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💾Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can configure FormMosaic by modifying the `config.js` file located in the root directory. The following settings are available:
 
-## Deploy on Vercel
+- **API Endpoint**: Set the endpoint for form submissions.
+- **Theme**: Customize the theme and appearance of your forms.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We welcome contributions to FormMosaic! To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+    ```sh
+    git checkout -b feature-branch
+    ```
+3. Make your changes and commit them:
+    ```sh
+    git commit -m "Description of your changes"
+    ```
+4. Push to the branch:
+    ```sh
+    git push origin feature-branch
+    ```
+5. Open a pull request on GitHub.
+
+## 🪪License
+
+FormMosaic is released under the MIT License. See `LICENSE` for more information.
+
+## 📞Contact
+
+For questions or support, please open an issue on GitHub or contact us at support@formmosaic.com.
+
+
